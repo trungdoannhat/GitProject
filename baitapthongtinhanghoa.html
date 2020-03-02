@@ -7,21 +7,32 @@
 <body>
 <h2 align="center">NHẬP THÔNG TIN HÀNG HOÁ </h2>
 <form style="font-family: Arial" action="itemform.html" method="get">
-<fieldset>
-    MẶT HÀNG : <input type="text" value="" name="Name"><br/><br/>
-    HÌNH ẢNH:<input type="file" name="image" value="files" style="margin-left: 29px"/><br><br>
-    SỐ LƯỢNG : <input type="text" value="" name="Number"><br/><br/>
-    Xuất xứ  : <input type="radio" name="from" value="châu âu" checked>châu âu
-    <input type="radio" name="from" value="nn">mỹ
-    <input type="radio" name="from" value="all">châu á<br><br>
-    Giá thành :<input type="text" value=""><br><br>
-    Tình trạng :<input type="checkbox" name="mới" value="new">mới
-    <input type="checkbox" name="đã qua sử dụng" value="old">đã qua sử dụng
-    <input type="checkbox" name="khác" value="dif">khác<br/><br>
-    Ghi chú
-    <textarea name="" id="" cols="30" rows="10"></textarea><br><br><br>
+    <fieldset>
+        Tên đăng nhập : <input type="text" name="user name"><br><br>
+        Mật khẩu : <input type="password" name="password"><br><br>
+        MẶT HÀNG : <input type="text" value="" name="Name"><br/><br/>
+        HÌNH ẢNH:<input type="file" name="image" value="files" style="margin-left: 29px"/><br><br>
+        SỐ LƯỢNG : <input type="text" value="" name="Number"><br/><br/>
+        Xuất xứ  : <input type="radio" name="from" value="châu âu" checked>châu âu
+        <input type="radio" name="from" value="nn">mỹ
+        <input type="radio" name="from" value="all">châu á<br><br>
+        Giá thành :<input type="text" value=""><br><br>
+        Tình trạng :<input type="checkbox" name="mới" value="new">mới
+        <input type="checkbox" name="đã qua sử dụng" value="old">đã qua sử dụng
+        <input type="checkbox" name="khác" value="dif">khác<br/><br>
+        Thời gian nhập : <input type="date" value=""><br><br>
+        <p> <input type="hidden"  value="=hidden" chỉ nhập hàng tồn kho</p>
+        Giá thành: <select>
+        <option value=”0″>Chọn giá sản phẩm bạn muốn mua</option>
+        <option value=”34″>Từ 300 triệu đến 400 triệu</option>
+        <option value=”46″>Từ 401 triệu đến 600 triệu</option>
+        <option value=”68″>Từ 601 triệu đến 800 triệu</option>
+        <option value=”812″>Từ 801 triệu đến 1.2 tỷ đồng</option>
+    </select><br><br>
+        Ghi chú
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br><br>
 
-</fieldset><br>
+    </fieldset><br>
     <div style="text-align: center">
         <input type="submit" value="cập nhật">
         <input type="reset" value="reset">
