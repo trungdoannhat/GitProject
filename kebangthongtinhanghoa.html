@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tiêu đề</title>
+</head>
+<body>
+
+<h2 align="center">NHẬP THÔNG TIN HÀNG HOÁ </h2>
+<form style="font-family: Arial" action="itemform.html" method="get">
+    <fieldset>
+        <table style="border-spacing:10px ">
+        <tr>
+            <td width="100"><span>Tên đăng nhập :</span></td>
+            <td><input type="text" name="user name"></td>
+        </tr>
+            <tr>
+                <td width="100"><span>Mật khẩu : </span></td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td width="100"><button>Đăng nhập </button></td>
+
+            </tr>
+            <tr>
+                <td width="100"><span>MẶT HÀNG : </span></td>
+                <td><input type="text" value="" name="Name"></td>
+            </tr>
+            <tr>
+                <td><span>HÌNH ẢNH:</span></td>
+                <td><input type="file" name="image" value="files"></td>
+            </tr>
+            <tr>
+                <td width="100"><span> SỐ LƯỢNG : </span></td>
+                <td><input type="text" value="" name="Number"></td>
+            </tr>
+            <tr>
+                <td width="100"><span>  Xuất xứ  : </span></td>
+                <td><input type="radio" name="from" value="châu âu" checked>châu âu
+                    <input type="radio" name="from" value="nn">mỹ
+                    <input type="radio" name="from" value="all">châu á
+                </td>
+            </tr>
+            <tr>
+                <td><span>Giá thành :</span></td>
+                <td><input type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><span>Tình trạng :</span></td>
+                <td><input type="checkbox" name="mới" value="new">mới
+                    <input type="checkbox" name="đã qua sử dụng" value="old">đã qua sử dụng
+                    <input type="checkbox" name="khác" value="dif">khác
+                </td>
+            </tr>
+            <tr>
+                <td><span>Thời gian nhập : </span></td>
+                <td><input type="date" value=""></td>
+            </tr>
+            <p> <input type="hidden"  value="=hidden" chỉ nhập hàng tồn kho></p>
+            <tr>
+                <td><span>Giá thành:</span></td>
+                <td><select>
+                    <option value=”0″>Chọn giá sản phẩm bạn muốn mua</option>
+                    <option value=”34″>Từ 300 triệu đến 400 triệu</option>
+                    <option value=”46″>Từ 401 triệu đến 600 triệu</option>
+                    <option value=”68″>Từ 601 triệu đến 800 triệu</option>
+                    <option value=”812″>Từ 801 triệu đến 1.2 tỷ đồng</option>
+                </select>
+                </td>
+            <tr>
+                <td><span>Ghi chú :</span></td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea><br><br><br></td>
+            </tr>
+
+    </fieldset><br>
+
+    <div style="text-align: center">
+        <input type="submit" value="cập nhật">
+        <input type="reset" value="reset">
+    </div>
+    </table>
+</form>
+
+</body>
+</html>
