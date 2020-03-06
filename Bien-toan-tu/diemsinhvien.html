@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> title</title>
+    <head>
+
+<body>
+
+<script>
+    let vatly;
+    vatly = prompt('nhập điểm môn vật lý ');
+    let hoa;
+    hoa = prompt('nhập điẻm môn hoá học');
+    let sinhhoc;
+    sinhhoc = prompt('nhập điểm môn sinh học');
+    let P = parseFloat(vatly);
+    let C = parseFloat(hoa);
+    let B = parseFloat(sinhhoc);
+    let medium = (P+C+B)/3;
+    let total = P+C+B;
+    document.write('Điểm trung bình là : ' + medium);
+    document.write('<br>');
+    document.write('Tổng điểm là : ' + total);
+</script>
+</body>
+</html>
